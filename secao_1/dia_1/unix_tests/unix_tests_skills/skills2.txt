@@ -1,0 +1,6 @@
+Internet, Unix e Bash
+Html
+CSS
+GIT
+Angula
+React
