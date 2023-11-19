@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 200, 200); 
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 40px; 
+}
+
+p {
+    font-family: fantasy;
+}
+
+h2 {
+    color: green;
+}
+
+#extinct-specie {
+    background-color: red;
+    text-align: center;
+}
+
+#title-extinct {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.list-style {
+    background-color: blue;
+    text-align: justify;
+    color: white;
+}
