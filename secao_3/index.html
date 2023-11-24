@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Praticas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+            letter-spacing: 1.5px;
+
+        }
+        .code{
+            background-color: white;
+            border: 1px solid;
+            padding: 3px;
+            border-radius: 8px;
+            border-color: darkgrey;
+            color: blueviolet;
+            font-size: 15px;
+        }
+        .img{
+            width: 400px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .artigos{
+            font-family: cursive;
+            line-height: 2.5;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <hr>
+        <h2>
+            Boas práticas de nomeação de variáveis
+        </h2>
+        <hr>
+        <br>
+        <p>Vejam a seguir algumas boas práticas de nomeação de variáveis em JavaScript.</p>
+        <br>
+        <br>
+        <ul>
+            <li>
+                <strong>Usar nomes descritivos:</strong> o nome da variável deve ser descritivo o suficiente para que o objetivo da variável possa ser entendido sem a necessidade de comentários adicionais;
+            </li>
+            <li>
+                <strong>Usar camelCase:</strong> em JavaScript, o estilo mais comum é o camelCase, em que a primeira palavra começa com letra minúscula e as subsequentes, com letra maiúscula, sem espaços;
+            </li>
+            <li>
+                <strong>Evitar abreviações:</strong> a menos que as abreviações sejam amplamente conhecidas e aceitas, evite usá-las em nomes de variáveis. É preferível usar nomes completos e descritivos;
+            </li>
+            <li>
+                <strong>Evitar nomes muito longos demais:</strong> nomes muito longos podem ser difíceis de digitar e tornar o código mais difícil de ler (nem muito curto, nem muito longo);
+            </li>
+            <li>
+                <strong>Usar convenções de nomenclatura padrão:</strong> siga as convenções de nomenclatura padrão para o idioma e o framework que você está usando. Por exemplo, o padrão de nomenclatura no Node.js é usar camelCase para funções;
+            </li>
+            <li>
+                <span class="code"><code>Evitar nomes reservados</code></span>: evite “var”, “let”, “const”, “function”, “if”, “else” etc.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <p>
+            Alguns exemplos de boas práticas de nomeação de variáveis em JavaScript:
+    
+        </p>
+        <br>
+        <img class="img" src="/secao_3/img/js01.png" alt="foto exemplo">
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+        <h2>
+            Operações aritméticas
+        </h2>
+        <p>
+             Precisamos de operadores para realizar qualquer operação em uma linguagem de programação. O JavaScript também tem operadores aritméticos, de atribuição, de comparação, lógicos, entre outros. Na tabela a seguir, temos os operadores e as suas descrições:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Operador Aritmético</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>+</td>
+                    <td>Adição</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Subtração</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Multiplicação</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Divisão</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Módulo (resto de uma operação de divisão)</td>
+                </tr>
+                <tr>
+                    <td>+=</td>
+                    <td>Incremento</td>
+                </tr>
+                <tr>
+                    <td>-=</td>
+                    <td>Decremento</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>  
+    
+    <section>
+        <p>
+            Vamos ver como realizar <span class="code"><code>operações aritméticas</code></span> no JavaScript na prática: 
+        </p>
+        <video width="500" height="500" controls>
+            <source src="/secao_3/img/video1.mov" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <br>
+        <p>Um breve resumo:</p>
+        <br>
+        <img class="img" src="/secao_3/img/operadore.png" alt="">
+    </section>
+    <article class="artigos">
+        <p>
+            <strong>Saiba mais</strong> 💡: Também podemos incrementar variáveis com o operador <span class="code"><code>++</code></span> e decrementar com o operador  <span class="code"><code>--</code></span>, porém a recomendação é utilizar  <span class="code"><code>variavel+= 1</code></span> em vez de  <span class="code"><code>variavel++</code></span>. Além de tornar a leitura mais nítida, a incrementação com  <span class="code"><code>+=</code></span> pode ser de diferentes tipos ou valores, como  <span class="code"><code>nome += nomeCompleto</code></span> ou  <span class="code"><code>contador+= 2</code></span>. Já os operadores  <span class="code"><code>++</code></span> ou  <span class="code"><code>--</code></span> trabalham apenas com o incremento ou decremento de 1.
+        </p>
+    </article>
+</body>
+</html>
