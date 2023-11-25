@@ -1,6 +1,6 @@
-let number1 = 330
-let number2 = 600
-let number3 = 50
+let number1 = 257
+let number2 = 32
+let number3 = 77
 message = ""
 
 if (number1 > number2 && number1 > number3) {

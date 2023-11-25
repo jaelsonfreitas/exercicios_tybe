@@ -1,4 +1,4 @@
-let number1 = 330
+let number1 = 33
 let number2 = 60
 message = ""
 
