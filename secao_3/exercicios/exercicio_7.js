@@ -1,4 +1,4 @@
-let grossSalary = 7000.00;
+let grossSalary = 6800.00;
 let baseInss1 = (grossSalary * 8) / 100;
 let baseInss2 = (grossSalary * 9) / 100;
 let baseInss3 = (grossSalary * 11) / 100;
