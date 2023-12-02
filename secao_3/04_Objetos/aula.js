@@ -80,3 +80,44 @@ const usuario = {
 
 // De olho na dica 👀: Se o objeto estiver dentro de um array, ele será acessado por meio de seu índice, assim como uma informação seria acessada em um array de strings.
 // Veja este exemplo:
+
+
+const moradores = [
+    {
+        nome: 'João',
+        sobrenome: 'de Arimateia',
+        laje: '10',
+        apartamento: '1005',
+    },
+    {
+        nome: 'Maria',
+        sobrenome: 'Madalena',
+        laje: '5',
+        apartamento: '501',  
+    },
+    {
+        nome: 'Matheus',
+        sobrenome: 'Evangelista',
+        laje: '2',
+        apartamento: '205',
+    },
+    {
+        nome: 'Lucas',
+        sobrenome: 'Médico',
+        laje: '19',
+        apartamento: '1905',
+    },
+];
+
+// console.log(moradores[0]);
+// const primeiroMorador = moradores[2];
+// console.log(primeiroMorador);
+// console.log(primeiroMorador.laje);
+
+const primeiroMorador = moradores[moradores.length - 1];
+console.log(primeiroMorador);
+
+for (let index = 0; index < moradores.length; index +=1) {
+    const morador = moradores[index];
+    console.log(morador.nome);
+};
