@@ -1,0 +1,12 @@
+[
+    {
+        "produto":"Arroz",
+        "marca":"Tio João",
+        "preco":18.90
+    },
+    {
+        "produto":"Feijão",
+        "marca":"Pontarolo",
+        "preco":6.90
+    }
+]
