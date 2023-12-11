@@ -1,9 +1,27 @@
-body{
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin: auto;
     text-align: center;
 }
-header {
-    background-color: green;
+
+h1{
+    text-align: center;
     color: white;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px 5px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
 }
 
 img{
@@ -12,7 +30,17 @@ img{
     width: 200px;
     box-shadow: rgba(0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 100%;
+}
 
+.student-info{
+    display: inline-block;
+    text-align: center;
+}
+
+.result{
+    max-width: 40%;
+    margin: auto;
+    margin-top: 70px;
 }
 
 .green{
@@ -29,4 +57,9 @@ img{
     font-size: 40px;
     border: 2px solid red;
     border-radius: 10px;
+}
+
+.future-projects {
+    margin: auto;
+    text-align: center;
 }
