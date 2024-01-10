@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Ordem de pedido</h1>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Identificação</legend>
+
+                <label for="full-name"> Nome Completo: </label>
+                <input type="text" name="full-name" placeholder="Escreva seu nome..." id="full-name">
+                <br>
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address">
+                <br>
+                <label for="e-mail">Email</label>
+                <input type="email" name="e-mail" id="e-mail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Tamanho da Marmita</legend>
+                <select name="size" id="size-id">
+                    <option value="food-500">Marmitinha - 500g</option>
+                    <option value="food-750">Marmitinha - 750g</option>
+                    <option value="food-1kg" selected>Marmitinha - 1kg</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ovo Frito</legend>
+                <label for="egg">Quantidade (R$ 2,00)</label>
+                <input type="number" name="egg" id="egg-id" min="0" value="0">
+            </fieldset>
+            <fieldset>
+                <legend> Onde vai o Feijão</legend>
+                <input type="radio" name="montagem" id="">
+                <label for="bean-on-top">Feijão em cima</label>
+                <input type="radio" name="montagem" id="">
+                <label for="bean-on-top">Arroz em Cima</label>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
