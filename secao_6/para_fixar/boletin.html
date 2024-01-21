@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <link rel="stylesheet" href="boletin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Colegio do Aprendizado Da Floresta</h1>
+        <h3>Bem vindo ao simulador de Aprovação.</h3>
+        <p>
+            Nele voce poderá simular sua aprovaçao em determinadara matérias. Basta digitar a matéria  e o seu número de faltas que o simulador dirá se você foi aprovado nesta disciplina. 
+        </p>
+    </header>
+
+    <table id="tabela">
+        <tr id="cabecalho">
+            <th>Ensino Médio</th>
+            <th>1ª Serie</th>
+            <th colspan="2">Numero de Faltas</th>
+            <th id="faltas">
+                <input type="text" id="number-id">
+            </th>
+        <tr id="dados">
+            <th class="materia"> <label for="name-id">Digite a Matéria Aqui: </label></th>
+            <th>1º Bimestre</th>
+            <th>2º Bimestre</th>
+            <th>3º Bimestre</th>
+            <th>4º Bimestre</th>
+        </tr>
+        <tr>
+            <td id="nota"> 
+                <input type="text" class="nota-01" id="name-id">
+            </td>
+            <td id="nota">
+                <input type="text" class="nota-02" id="number-id">
+            </td>
+            <td id="nota">
+                <input type="text" class="nota-03" id="number-id">
+            </td>
+            <td id="nota">
+                <input type="text" class="nota-04" id="number-id">
+            </td>
+            <td id="nota">
+                <input type="text" id="number-id">
+            </td>
+        </tr>
+    </table>
+
+    <button id="send-button">Simular</button>
+
+    <p id="text-aprovado"></p>
+    <p id="text-reprovado"></p>
+
+    <script src="./boletin.js"></script>
+</body>
+</html>
